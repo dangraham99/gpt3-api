@@ -3,7 +3,7 @@ import AlertBox from "./components/AlertBox";
 import Header from "./components/Header";
 import PromptInput from "./components/PromptInput";
 import ResponseBox from "./components/ResponseBox";
-import { getResponse } from "./helpers/OpenAIHelper";
+import { getResponse } from "./helpers/openai-api";
 
 
 
