@@ -19,7 +19,7 @@ function ResponseBox(props) {
                 </div>
 
             </div>
-            <div class="border whitespace-pre-wrap border-slate-200 font-mono font-extralight tracking-tighter text-left py-2 px-4">{props.isLoading && <LoadingSpinner />} {!props.isLoading && props.responseText}
+            <div class="border whitespace-pre-wrap border-slate-200 font-mono font-extralight tracking-tighter text-left py-2 px-4">{props.isLoading && <LoadingSpinner />}{!props.isLoading && props.responseText}
             </div>
         </div>
     )
